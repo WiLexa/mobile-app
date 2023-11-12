@@ -1,0 +1,38 @@
+:root {
+    --
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+ul,
+ol {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+button {
+    cursor: pointer;
+}
+img {
+    display: block;
+}
+.list {
+    list-style-type: none;
+}
+.link {
+    text-decoration: none;
+}
+.container {
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1280px;
+}
