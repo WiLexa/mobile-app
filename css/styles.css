@@ -1,5 +1,5 @@
 :root {
-    --
+  --color-primary: #000;
 }
 h1,
 h2,
@@ -8,31 +8,65 @@ h4,
 h5,
 h6,
 p {
-    margin-top: 0px;
-    margin-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 ul,
 ol {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
 }
 button {
-    cursor: pointer;
+  cursor: pointer;
 }
 img {
-    display: block;
+  display: block;
 }
 .list {
-    list-style-type: none;
+  list-style-type: none;
 }
 .link {
-    text-decoration: none;
+  text-decoration: none;
 }
 .container {
-    padding-left: 16px;
-    padding-right: 16px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1280px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1280px;
+}
+
+/* reviews and comments */
+.reviews-section {
+  line-height: normal;
+  font-style: normal;
+  font-family: Inter;
+  color: var(--color-primary);
+}
+
+.comments-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.users-name {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.reviews-section h4 {
+  color: var(--color-primary);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.71; /* 171.429% */
+}
+
+.user-comment {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  color: var(--color-primary);
 }
