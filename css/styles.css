@@ -87,11 +87,13 @@ img {
   font-style: normal;
   font-family: Inter;
   color: var(--color-primary);
+  text-align: center;
 }
 
 .comments-title {
   font-size: 24px;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .users-name {
