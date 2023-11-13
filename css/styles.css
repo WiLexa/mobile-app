@@ -1,5 +1,6 @@
 :root {
   --color-primary: #000;
+  --color-text-white: #fff;
 }
 h1,
 h2,
@@ -36,6 +37,49 @@ img {
   margin-right: auto;
   width: 1280px;
 }
+
+/* Hero */
+.hero {
+}
+.hero-title {
+  color: #0e0d0d;
+
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.hero-text {
+  color: #0e0d0d;
+
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.hero-item-text {
+  color: #0c0c0c;
+
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.btn {
+  color: var(--color-text-white);
+
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #00c5eb -1.97%, #b544fe 89.43%);
+}
+/* Hero */
 
 /* reviews and comments */
 .reviews-section {
