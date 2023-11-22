@@ -1,0 +1,55 @@
+/* Загальний клас list */
+.list {
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+/* Загальний клас link */
+.link {
+  text-decoration: none;
+  display: inline-block;
+}
+/* Загальний клас container */
+.container {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*====================================Header==================================*/
+.logo {
+  color: #fff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: 'Inter', sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: normal;
+  padding: 19px 0px 19px 16px;
+}
+.header-list-link {
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 29px;
+  padding-bottom: 28px;
+}
+.header-top-container {
+  display: flex;
+  justify-content: space-between;
+}
+.header-list {
+  display: flex;
+  gap: 40px;
+  padding-right: 16px;
+}
+.header-top-container {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 197, 235, 0.3) -1.97%,
+    rgba(181, 68, 254, 0.3) 89.43%
+  );
+  backdrop-filter: blur(17.5px);
+}
