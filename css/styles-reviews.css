@@ -1,0 +1,34 @@
+.reviews-section {
+  line-height: normal;
+  font-style: normal;
+  font-family: Inter;
+  color: var(--color-primary);
+  text-align: center;
+}
+
+.comments-title {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.users-name {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.reviews-section h4 {
+  color: var(--color-primary);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.71; /* 171.429% */
+}
+
+.user-comment {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  color: var(--color-primary);
+}

@@ -37,82 +37,10 @@ img {
   margin-right: auto;
   width: 1280px;
 }
-
-/* Hero */
-.hero {
-}
-.hero-title {
-  color: #0e0d0d;
-
-  font-family: Inter;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-.hero-text {
-  color: #0e0d0d;
-
-  font-family: Inter;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-.hero-item-text {
-  color: #0c0c0c;
-
-  font-family: Inter;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-.btn {
-  color: var(--color-text-white);
-
-  font-family: Inter;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  border-radius: 5px;
-  background: linear-gradient(90deg, #00c5eb -1.97%, #b544fe 89.43%);
-}
-/* Hero */
-
-/* reviews and comments */
-.reviews-section {
-  line-height: normal;
-  font-style: normal;
-  font-family: Inter;
-  color: var(--color-primary);
-  text-align: center;
-}
-
-.comments-title {
-  font-size: 24px;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.users-name {
-  font-size: 18px;
-  font-weight: 700;
-}
-
-.reviews-section h4 {
-  color: var(--color-primary);
-  text-align: center;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.71; /* 171.429% */
-}
-
-.user-comment {
-  text-align: center;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5; /* 150% */
-  color: var(--color-primary);
-}
+@import './styles-header.css';
+@import './styles-hero.css';
+@import './styles-features.css';
+@import './styles-video.css';
+@import './styles-team.css';
+@import './styles-reviews.css';
+@import './styles-footer.css';
