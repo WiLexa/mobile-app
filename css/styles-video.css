@@ -1,0 +1,80 @@
+:root {
+    --color-primary: #000;
+    --color-text-white: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+ul,
+ol {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.container {
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1280px;
+}
+
+/* ==== Section Video ==== */
+
+.video-section {
+    background: #06071B;
+    display: flex;
+}
+
+.video-title {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.video-text {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 200px;
+    width: 479px;
+}
+
+.video-container {
+    margin-left: 16px;
+    margin-right: 161px;
+}
