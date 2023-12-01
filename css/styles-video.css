@@ -70,7 +70,7 @@ img {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    padding-bottom: 200px;
+    padding-bottom: 40px;
     width: 479px;
 }
 
@@ -78,3 +78,47 @@ img {
     margin-left: 16px;
     margin-right: 161px;
 }
+
+.video-social-item {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-left: 16px;
+    margin-bottom: 100px;
+}
+
+.video-social-list {
+    display: flex;
+}
+
+.video-social-list-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, #00C5EB -1.97%, #B544FE 89.43%);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.video-social-list-icon {
+    fill: #FFF;
+}
+
+.video-container-img {
+    position: relative;
+    margin-top: 60px;
+    margin-bottom: 80;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-container-img-iphone-label {
+    position: absolute;
+}
+
